@@ -1,0 +1,380 @@
+@import url('https://fonts.googleapis.com/css2?family=Bonheur+Royale&display=swap');
+body {
+  font-family: HK Grotesk;
+  background: linear-gradient(to bottom, #E2C7A9   30%, #9F7157 100%);
+  font-family: 'Bonheur Royale', cursive;
+}
+
+.room{
+  position: relative;
+  margin:auto;
+  text-align: center;
+  width: 80%;
+  height: 800px;
+}
+
+.wBase{
+  position: absolute;
+  top: -10px;
+  left: 0px;
+  width: 1705px;
+  height: 500px;
+  background: linear-gradient(to bottom, #36546E 40%, #677F93 80%);
+}
+
+.wL{
+  position: absolute;
+  top: -20px ;
+  left: 0px;
+  width: 40px;
+  height: 508px;
+  background: linear-gradient(to bottom, #A5C9C7 0%, #6F8E95 40%);
+  border-bottom: 10px solid #648085;
+}
+
+.wR{
+  position: absolute;
+  top: -20px ;
+  left: 1682px;
+  width: 40px;
+  height: 508px;
+  background: linear-gradient(to bottom, #A5C9C7 0%, #6F8E95 50%);
+  border-bottom: 10px solid #648085;
+}
+
+.wC{
+  position: absolute;
+  top: -20px ;
+  left: 850px;
+  width: 40px;
+  height: 508px;
+  background: linear-gradient(to bottom, #A5C9C7 0%, #6F8E95 100%);
+  border-bottom: 10px solid #648085;
+}
+
+.wB{
+  position: absolute;
+  top: 490px ;
+  left: -20px;
+  width: 1742px;
+  height: 40px;
+  background-color: #6F8E95;
+  border-bottom: 5px solid #648085;
+}
+
+.table{
+  position: absolute;
+  margin:auto;
+  top: 600px;
+  left: 500px;
+  height: 150px;
+  width: 900px;
+  background-color: #E8E1D4;
+  border-radius: 50%;
+}
+
+.tEnds{
+  position: absolute;
+  margin:auto;
+  top: 600px;
+  left: 500px;
+  height: 180px;
+  width: 900px;
+  background-color: #C8BEAB;
+  border-radius: 45%;
+}
+
+.tableB{
+  position: absolute;
+  margin:auto;
+  top: 780px;
+  left: 900px;
+  height: 138px;
+  width: 80px;
+  background: linear-gradient(to bottom, #968d7e 0%, #D8C4A5 90%);
+  border-top: 10px solid #968d7e;
+}
+
+.chair{
+  position: absolute;
+  margin:auto;
+  top: 510px;
+  left: 240px;
+  height: 350px;
+  width: 50px;
+  border-radius: 5%;
+  background-color: #D8C4A5;
+}
+
+.chairB{
+  position: absolute;
+  margin:auto;
+  top: 810px;
+  left: 245px;
+  height: 50px;
+  width: 285px;
+  border-radius: 5%;
+  background-color: #D8C4A5;
+  border-bottom: 5px solid #A5947A;
+}
+
+.chairS{
+  position: absolute;
+  margin:auto;
+  top: 760px;
+  left: 250px;
+  height: 80px;
+  width: 270px;
+  border-radius: 30%;
+  background-color: #F5E8D4;
+  background: linear-gradient(to bottom, #F5E8D4 40%, #c9c0af 60%);
+}
+
+.chairS1{
+  position: absolute;
+  margin:auto;
+  top: 515px;
+  left: 260px;
+  height: 255px;
+  width: 50px;
+  border-radius: 0 30%;
+  background: linear-gradient(to bottom, #F5E8D4 80%, #c9c0af 100%);
+}
+
+.chairL{
+  position: absolute;
+  margin:auto;
+  top: 810px;
+  left: 470px;
+  height: 114px;
+  width: 50px;
+  background-color: #D8C4A5;
+  border-top: 5px solid #A5947A;
+}
+
+.chairR{
+  position: absolute;
+  margin:auto;
+  top: 810px;
+  left: 250px;
+  height: 114px;
+  width: 50px;
+  background-color: #D8C4A5;
+  border-top: 5px solid #A5947A;
+}
+
+.chair2{
+  position: absolute;
+  margin:auto;
+  top: 560px;
+  left: 1200px;
+  height: 300px;
+  width: 250px;
+  background-color: #D8C4A5;
+}
+
+.chair2T{
+  position: absolute;
+  margin:auto;
+  top: 520px;
+  left: 1200px;
+  height: 80px;
+  width: 250px;
+  border-radius: 45%;
+  background-color: #D8C4A5;
+}
+
+.chair2S{
+  position: absolute;
+  margin:auto;
+  top: 580px;
+  left: 1215px;
+  height: 250px;
+  width: 220px;
+  background: linear-gradient(to bottom, #F5E8D4 80%, #c9c0af 100%);
+}
+
+.chairST{
+  position: absolute;
+  margin:auto;
+  top: 530px;
+  left: 1215px;
+  height: 85px;
+  width: 220px;
+  border-radius: 45%;
+  background-color: #F5E8D4;
+}
+
+.chairRS{
+  position: absolute;
+  margin:auto;
+  top: 790px;
+  left: 1190px;
+  height: 80px;
+  width: 270px;
+  border-radius: 30%;
+  background-color: #F5E8D4;
+  background: linear-gradient(to bottom, #F5E8D4 40%, #c9c0af 60%);
+}
+
+.chairBR{
+  position: absolute;
+  margin:auto;
+  top: 830px;
+  left: 1180px;
+  height: 50px;
+  width: 290px;
+  border-radius: 10% 10% 0 0;
+  background-color: #D8C4A5;
+  border-bottom: 5px solid #A5947A;
+}
+
+.chairLv2{
+  position: absolute;
+  margin:auto;
+  top: 810px;
+  left: 1412px;
+  height: 114px;
+  width: 50px;
+  background-color: #D8C4A5;
+  border-top: 5px solid #A5947A;
+}
+
+.chairRv2{
+  position: absolute;
+  margin:auto;
+  top: 832px;
+  left: 1186px;
+  height: 92px;
+  width: 50px;
+  background-color: #D8C4A5;
+  border-top: 5px solid #A5947A;
+}
+
+.plate{
+  position: absolute;
+  margin:auto;
+  top: 20px;
+  left: 120px;
+  height: 100px;
+  width: 200px;
+  background-color: #fafafa;
+  border-radius: 50%;
+}
+
+.plateIn{
+  position: absolute;
+  margin:auto;
+  top: 40px;
+  left: 135px;
+  height: 70px;
+  width: 160px;
+  background-color: white;
+  border-radius: 50%;
+  border: 5px solid #ededed;
+}
+
+.plateB{
+  position: absolute;
+  margin:auto;
+  top: 30px;
+  left: 130px;
+  height: 100px;
+  width: 200px;
+  background-color: #c9bfab;
+  border-radius: 50%;
+}
+
+.menu{
+  position: absolute;
+  margin:auto;
+  top: -100px;
+  left: 505px; 
+  height: 170px;
+  width: 140px; 
+  background-color: #A29281;
+  border: 2px solid #796A5B;
+  transform: skew(-5deg);
+}
+
+.menuT{
+  position: absolute;
+  margin:auto;
+  top: 10px;
+  left: 10px; 
+  height: 150px;
+  width: 120px; 
+  background-color: #FFF8F0;
+  background: linear-gradient(to bottom, #6F8E95 0%, #56777d 40%);
+}
+
+.menuB{
+  position: absolute;
+  margin:auto;
+  top: -100px;
+  left: 525px; 
+  height: 170px;
+  width: 140px; 
+  background-color: #796A5B;
+  transform: skew(5deg);
+}
+
+.menuS{
+  position:absolute;
+  left: 550px;
+  top:55px;
+  width: 150px;
+	height: 20px;
+	transform: skew(100deg);
+  background-color: #c9bfab;
+}
+
+.button{
+  position: absolute;
+  left: -20px;
+}
+
+.btn{
+  padding: 10px 30px;
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+  text-transform: uppercase;
+  float: left;
+}
+
+.btn-one{
+  position: absolute;
+  top:20px;
+  left: 8px;
+}
+
+.btn-two{
+  position: absolute;
+  top:90px;
+  left: 18px;
+}
+
+section { 
+    width: 100%; 
+    height: 700px;
+    position: relative;
+    position: absolute; 
+    top: -200px; 
+    left: 0; 
+    background-image: url(https://cdn.glitch.com/b360dc07-132b-4b69-8bb2-c78b043bdd66%2FUntitled_Artwork.png?v=1632910483971); 
+    animation: rain .16s linear infinite; 
+    opacity: 0; 
+}
+
+@keyframes rain { 
+    0% { 
+        background-position: 0 0; 
+        opacity: 1; 
+    } 
+
+    100% { 
+        background-position: 10% 100%; 
+        opacity: 1; 
+    } 
+}
